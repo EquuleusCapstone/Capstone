@@ -17,22 +17,19 @@
         <Spinner
             android:id="@+id/ampmSpinner"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" 
+            android:layout_height="wrap_content" 
             android:entries="@array/am_pm"/>
 
         <Spinner
             android:id="@+id/hourSpinner"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2" 
+            android:layout_height="wrap_content" 
             android:entries="@array/hours"/>
 
         <Spinner
             android:id="@+id/minutesSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2" 
             android:entries="@array/minutes"/>
     </TableRow>
 
@@ -45,21 +42,18 @@
             android:id="@+id/ampmSpinner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" 
             android:entries="@array/am_pm"/>
 
         <Spinner
             android:id="@+id/hourSpinner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2" 
             android:entries="@array/hours"/>
 
         <Spinner
             android:id="@+id/minutesSpinner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2" 
             android:entries="@array/minutes"/>
     </TableRow>
     
